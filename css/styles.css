@@ -1,0 +1,143 @@
+:root {
+    /*index.html bg colors*/
+    --main-background-color: #FFFFFF;
+    --header-background-color: #FFFFFF;
+    --hero-bg-color: #2F303A;
+    --team-background-color: #F5F5F5;
+    --team-bg-color: #F5F4FA;
+
+    /*index.html text colors*/
+
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --hero-text-color: #ffffff;
+    --address-text-color: 757575;
+    --address-footer-text-color: rgba(255, 255, 255, 0.6);
+    --address-text-accent-color: #2196F3;
+
+    --header-text-color: #212121;
+    --header-text-accent-color: #2196F3;
+
+}
+
+/*--common design elements--загальні елементи оформлення--*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.buttons {
+ font-family: inherit;
+ background-color: #2196F3;
+ color: #FFFFFF;
+}
+
+
+
+
+/*-----------------------------------------------------------*/
+
+
+header {
+    background-color: var(--header-bg-color);
+    
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.topLogo {
+    font-family: 'Raleway', sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: var(--main-text-color);
+}
+
+.menu-item {
+    color: var(--header-text-color);
+}
+
+.menu-item:hover,
+.menu-item:focus {
+    color: var(--header-text-accent-color)
+}
+
+
+.adress-item:hover,
+.adress-item:focus {
+    color: var(--address-text-accent-color);
+}
+
+
+/*------------------HERO------------------------*/
+
+.hero {
+    background-color: var(--hero-bg-color);
+    color: var(--hero-text-color);
+}
+
+
+/*------------------TEAM-------------------------*/
+    
+.team {
+    background-color: var(--team-background-color);
+}
+
+
+
+/*--------------------FOOTER-----------------*/
+footer {
+    background-color: #2F303A;
+    height: 252px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+
+
+.bottomLogo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--hero-text-color);
+}
+
+.adress-bottom-item {
+    color: var(--address-footer-text-color);
+}
+
+.adress-bottom-item:hover,
+.adress-bottom-item:focus {
+    color: var(--address-text-accent-color);
+}
+
